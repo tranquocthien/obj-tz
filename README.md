@@ -14,15 +14,15 @@ yarn add obj-tz
 **2. Create a obj-tz** (ES6 module syntax)
 
 ```javascript
-import obj-tz from 'obj-tz';
-obj-tz.encode(a:1); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
+import objtz from 'obj-tz';
+objtz.encode(a:1); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
 ```
 
 ... or using CommonJS syntax:
 
 ```javascript
-const obj-tz = require('obj-tz');
-obj-tz.encode(a:1); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
+const objtz = require('obj-tz');
+objtz.encode(a:1); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
 ```
 
 Other options read on ...
@@ -31,5 +31,5 @@ Other options read on ...
 
 |  |  |  |
 | --- | --- | --- |
-| [`uuid.encode()`](#encode) | Encode object| New in `obj-tz@1.0.4` |
-| [`uuid.decode()`](#decode) | Decode object | New in `obj-tz@1.0.4` |
+| [`objtz.encode()`](#encode) | Encode object| New in `obj-tz@1.0.4` |
+| [`objtz.decode()`](#decode) | Decode object | New in `obj-tz@1.0.4` |

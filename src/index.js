@@ -18,8 +18,8 @@ const salted_hmac = function (key_salt, value, secret = '') {
 }
 
 class Store {
-  _hash(value) {
-    const key_salt = 'a' + this.constructor.name
+  _hash(salt, value) {
+    const key_salt = salt + this.constructor.name
     return salted_hmac(key_salt, value).digest('hex')
   }
   encode(sessionObj) {
@@ -47,6 +47,5 @@ class Store {
   }
 }
 
-const obj_cz = new Store()
-obj_cz.version = '1.0.5'
-module.exports = obj_cz
+const objtz = new Store()
+module.exports = objtz
