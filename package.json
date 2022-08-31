@@ -4,6 +4,7 @@
   "main": "src/index.js",
   "author": "tranquocthien",
   "license": "MIT",
+  "homepage": "https://github.com/tranquocthien/obj-tz/",
   "repository": {
     "type": "git",
     "url": "https://github.com/tranquocthien/obj-tz.git"
