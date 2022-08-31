@@ -7,8 +7,5 @@
   "scripts": {
     "dev": "node src/index.js",
     "setup": "yarn install"
-  },
-  "dependencies": {
-    "obj_cz": "^1.0.6"
   }
 }
