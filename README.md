@@ -4,25 +4,25 @@
 **1. Install**
 ###### npm
 ```shell
-npm install obj-cz
+npm install obj-tz
 ```
 ###### yarn
 ```shell
-yarn add obj-cz
+yarn add obj-tz
 ```
 
-**2. Create a obj-cz** (ES6 module syntax)
+**2. Create a obj-tz** (ES6 module syntax)
 
 ```javascript
-import obj-cz from 'obj-cz';
-obj-cz.encode(a:1); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
+import obj-tz from 'obj-tz';
+obj-tz.encode(a:1); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
 ```
 
 ... or using CommonJS syntax:
 
 ```javascript
-const obj-cz = require('obj-cz');
-obj-cz.encode(a:1); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
+const obj-tz = require('obj-tz');
+obj-tz.encode(a:1); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
 ```
 
 Other options read on ...
@@ -31,5 +31,5 @@ Other options read on ...
 
 |  |  |  |
 | --- | --- | --- |
-| [`uuid.encode()`](#encode) | Encode object| New in `obj-cz@1.0.4` |
-| [`uuid.decode()`](#decode) | Decode object | New in `obj-cz@1.0.4` |
+| [`uuid.encode()`](#encode) | Encode object| New in `obj-tz@1.0.4` |
+| [`uuid.decode()`](#decode) | Decode object | New in `obj-tz@1.0.4` |

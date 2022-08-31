@@ -2,3 +2,7 @@
 # yarn lockfile v1
 
 
+obj_cz@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/obj_cz/-/obj_cz-1.0.6.tgz#70cf8b7acb33bf53bc980e347346dde6105be1aa"
+  integrity sha512-Eqya49p6BqNERgkDQOzPXDHdQW4YBjM6rl+5qhTHhiFMuq2BoeNe208e7gvtd0GyDWMkcUmhWiGBhgrQeby19Q==
