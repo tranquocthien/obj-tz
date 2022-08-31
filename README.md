@@ -15,14 +15,14 @@ yarn add obj-tz
 
 ```javascript
 import objtz from 'obj-tz';
-objtz.encode(a:1); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
+objtz.encode({a:1}); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
 ```
 
 ... or using CommonJS syntax:
 
 ```javascript
 const objtz = require('obj-tz');
-objtz.encode(a:1); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
+objtz.encode({a:1}); // ⇨ 'YjE4MTU5ZGRlZWU3YWQyNDVmYjBhMmUxOTIwYWJkZTk0Y2IxNWExMjp7ImEiOjF9'
 ```
 
 Other options read on ...
