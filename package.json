@@ -1,11 +1,18 @@
 {
   "name": "obj-tz",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "src/index.js",
   "author": "tranquocthien",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tranquocthien/obj-tz.git"
+  },
   "scripts": {
     "dev": "node src/index.js",
     "setup": "yarn install"
+  },
+  "dependencies": {
+    "obj-tz": "^1.0.7"
   }
 }
