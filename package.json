@@ -1,6 +1,6 @@
 {
   "name": "obj-tz",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "src/index.js",
   "author": "tranquocthien",
   "license": "MIT",
@@ -12,8 +12,5 @@
   "scripts": {
     "dev": "node src/index.js",
     "setup": "yarn install"
-  },
-  "dependencies": {
-    "obj-tz": "^1.0.7"
   }
 }
