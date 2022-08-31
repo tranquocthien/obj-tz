@@ -34,8 +34,6 @@ Other options read on ...
 | [`objtz.encode()`](#encode) | Encode object| New in `obj-tz@1.0.4` |
 | [`objtz.decode()`](#decode) | Decode object | New in `obj-tz@1.0.4` |
 
-### License
-```
-Copyright (c) 2022 Trần Quốc Thiện
+## License
 
-```
+See the [LICENSE](./LICENSE) file for licensing information.
