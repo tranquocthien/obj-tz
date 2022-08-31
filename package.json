@@ -1,0 +1,11 @@
+{
+  "name": "obj_cz",
+  "version": "1.0.0",
+  "main": "node src/index.js",
+  "author": "tranquocthien",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/index.js",
+    "setup": "yarn install"
+  }
+}
