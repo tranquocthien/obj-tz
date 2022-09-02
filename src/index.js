@@ -1,6 +1,8 @@
 const necklace = require('./necklace/index')
 const crypto = require('crypto')
 
+const codec_algorithms = [ "hex", "base64", "ascii85","base91","rot5", "rot13", "rot18", "rot47", "rev", "url" ,"punycode" ]
+
 const base64 = {
   /**@param {Buffer} value */
   encode: value => value.toString('base64'),
